@@ -35,7 +35,7 @@ Take the code in the file '[your-circle-clean-widget-order-dist-for-innerhtml.ht
 
 Please check the result carefully -including submitting the search- as many CMS editors 'lint' any code placed manually and remove 'invalid' or 'unsupported' markup; this can break the widget.
 
-If you need to have templates changed or created supply this code to your web developers. They may neead to tweak it slightly to fit your needs.
+If you need to have templates changed or created supply this code to your web developers. They may need to tweak it slightly to fit your needs.
 
 - - -
 
