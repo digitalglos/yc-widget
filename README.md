@@ -64,4 +64,6 @@ Inspect the code on your site carefully & decide which element is suitable. The 
 
 Use the code in '[your-circle-form-with-distance-class.js](your-circle-form-with-distance-class.js)' to place a script at the bottom of your page that will replace the \<div\> you injected above with the code from '[your-circle-clean-widget-order-dist-for-innerhtml.html](your-circle-clean-widget-order-dist-for-innerhtml.html)'.  
 **Do not paste into the rich text editor.**
+- - -
+Contact [communications@gloucestershire.gov.uk](mailto:communications@gloucestershire.gov.uk) with any queries.
 
