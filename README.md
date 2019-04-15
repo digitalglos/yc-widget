@@ -14,7 +14,8 @@ This is the best option where your CMS will tolerate user injected code but if y
 Please check for uniqueness of the 'id' because if you specify a non-unique 'id' the page HTML will be invalid and lead to multiple widgets  
 3. A version which replaces a convenient pre-defined \<div\> or other block \<[element]\> with a 'class' attribute
 
-> ### Notes  
+>### Notes  
+
 >* In case 2 and case 3 you must be able to place code (in this case a script) at the bottom of the page; preferrably just before the \</body\> tag.  
 Our CMS has this feature specifically to allow for injection of widgets & pop-ups.
 >* In case 3. it is important to understand that **the supplied code replaces the _first_ block \<[element]\> having the chosen class** and you will have to carefully inspect the document object model (DOM) to determine which element index to use if you have more than one target \<[element]\> with the same class.  
@@ -27,7 +28,8 @@ All widgets are self contained wth all styles inline except for standard furnitu
 
 - - -
 
-### Case 1 
+### Case 1
+
 **(Where you have access to the code  or your CMS editor allows injection of code without changing it.)**
 
 Take the code in the file '[your-circle-clean-widget-order-dist-for-innerhtml.html](your-circle-clean-widget-order-dist-for-innerhtml.html)' and paste into a convenient spot on your web page using the HTML code editor.  
@@ -39,7 +41,8 @@ If you need to have templates changed or created supply this code to your web de
 
 - - -
 
-### Case 2  
+### Case 2
+
 **(Where your CMS allows simple \<div\> code to be added but removes other parts during 'linting' -usually the \<form\> sections&ndash. You must be able to add scripts after the main web page code.)**
 
 Inject a \<div\> on the page with **id="replaceMe"** where you want the widet to appear - eg:
@@ -57,7 +60,8 @@ Again, please check the result carefully -including submitting the search- as yo
 
 - - -
 
-### Case 3  
+### Case 3
+
 **Where you need to inject the code into an area of the site over which you have no control but which you don't mind replacing with the widget - in our case this was a right hand column.**
 
 Inspect the code on your site carefully & decide which element is suitable. The code in the supplied file replaces the first element in the DOM using the CSS class targeted for replacement.
