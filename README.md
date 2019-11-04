@@ -45,7 +45,7 @@ If you need to have templates changed or created supply this code to your web de
 
 ### Case 2
 
-**(Where your CMS allows simple \<div\> code to be added but removes other parts during 'linting' -usually the \<form\> sections&ndash. You must be able to add scripts after the main web page code.)**
+**(Where your CMS allows simple \<div\> code to be added but removes other parts during 'linting' - usually the \<form\> sections. You must be able to add scripts after the main web page code.)**
 
 Inject a \<div\> on the page with **id="replaceMe"** where you want the widet to appear - eg:
 
