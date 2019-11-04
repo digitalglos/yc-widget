@@ -24,28 +24,40 @@
 			style='width: 100%; clear: both; background-color: rgb(83, 123, 189); padding-bottom: 1em; border-radius: 0 0 0.6em 0.6em;'>
 			<form action='https://www.yourcircle.org.uk/Search' method='get' target='_blank'>
 				<div id='keyword-container' style='padding: 1em;'>
-					<label for='keywords' style='color: white;'>a directory to help you find your way around health
-						and
-						care and connect with people, places and activities in Gloucestershire
-					</label>
-					<br />
-					<input style='width: 98%; border-radius: 0.6em; padding: 0.4em 1em 0 1em;' id='keywords'
-						data-autocomplete-url='https://www.yourcircle.org.uk/Search/AutoComplete' name='keywords'
-						title='What are you looking for?' type='text' placeholder='What are you looking for?'>
-					<br />
-					<label for='location' style='color: white;'>Within 5 miles of:</label>
-					<br />
-					<input style='width: 16em; border-radius: 0.6em; padding: 0.4em 1em;' id='location' name='location'
-						type='text' placeholder='postcode / area'>
-				</div>
-				<input aria-hidden='True' id='udg' name='udg' type='hidden' value='False'>
-				<input aria-hidden='True' id='distance' name='distance' type='hidden' value='5'>
-				<input aria-hidden='True' id='OrderBy' name='OrderBy' type='hidden' value='Distance'>
-				<div style='padding: 0 1em; line-height: 1em;'>
-					<input id='submit-keyword-search' class='btn btn-success' style='font-size: 1em;' type='submit'
-						value='Go'>
-					<input class='btn' style='font-size: 1em;' type='reset' value='Clear'>
-				</div>
+					<div id='keywords-input'>
+						<label for='keywords' style='color: white;'>A directory to help you find your way around care
+							and
+							support and connect with people, places and activities in Gloucestershire
+						</label>
+						<br />
+						<input style='width: 98%; border-radius: 0.6em; padding: 0.4em 1em 0 1em;' id='keywords'
+							data-autocomplete-url='https://www.yourcircle.org.uk/Search/AutoComplete' name='keywords'
+							title='What are you looking for?' type='text' placeholder='What are you looking for?'>
+					</div>
+					<div id='distance-input' style="margin-top: 8px; display: inline-block; max-width: 98%;">
+						<label for='location' style='color: white;'>Within 5 miles of:</label>
+						<br />
+						<input style='width: 16em; max-width: 98%; border-radius: 0.6em; padding: 0.4em 1em;' id='location'
+							name='location' type='text' placeholder='postcode / area'>
+					</div>
+					<div id='sort-input' style="margin-top: 8px; margin-left: 1em; display: inline-block; max-width: 98%;">
+						<label for='OrderBy' style='color: white;'>Sort by:</label>
+						<br />
+						<select style='width: 16em; max-width: 98%; border-radius: 0.6em; padding: 0.4em 1em;' id='OrderBy'
+							name='OrderBy' type='text' placeholder='Distance'>
+							<option value="Distance" selected="selected">Distance</option>
+							<option value="Relevance">Relevance</option>
+							</select>
+					</div>
+					<input aria-hidden='True' id='udg' name='udg' type='hidden' value='False'>
+					<input aria-hidden='True' id='distance' name='distance' type='hidden' value='5'>
+					<!-- input aria-hidden='True' id='OrderBy' name='OrderBy' type='hidden' value='Distance' -->
+					<!-- Replace 'Distance' on the above line with 'Relevance' to change the sort order -->
+					<div id='button-input' style='margin-top: 1em; line-height: 1em;'>
+						<input id='submit-keyword-search' class='btn btn-success' style='font-size: 1em;' type='submit'
+							value='Go'>
+						<input class='btn' style='font-size: 1em;' type='reset' value='Clear'>
+					</div>
 			</form>
 		</div>
 	</div>
