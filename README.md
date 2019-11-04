@@ -1,6 +1,15 @@
 # yc-widget
 
+Give your users the ability to search the YourCircle directory of care an support services across Gloucestershire on your website!
+
+We now provide some code which you can download and paste into your web page, launching the YourCircle search and displaying its results.
+
+This code gives you three options to generate the widget, depending on how much access you have to your site code. The simplest allows you to simply paste code into your page and we have two alternatives for where this does not work but you can add Javasript. Hopefully one of the methods will work for you.
+
+How the Widget looks
+
 ![widget screenshot](https://github.com/digitalglos/yc-widget/blob/master/YC-widget-screenshot.png)
+
 
 ## Your Circle search widget (with distance)
 
