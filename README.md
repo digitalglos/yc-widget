@@ -1,5 +1,7 @@
 # yc-widget
 
+![widget screenshot](https://github.com/digitalglos/yc-widget/blob/master/YC-widget-screenshot.png)
+
 ## Your Circle search widget (with distance)
 
 This widget comes in three 'flavours' depending on how the target content management system (CMS) page is built:
