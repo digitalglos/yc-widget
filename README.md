@@ -73,3 +73,15 @@ Use the code in '[your-circle-form-with-distance-class.js](your-circle-form-with
 - - -
 Contact [communications@gloucestershire.gov.uk](mailto:communications@gloucestershire.gov.uk) with any queries.
 
+## Tweaking the code
+
+**Where you are comfortable editing HTML and/or Javascript, you may wish to tweak the widget.**
+
+If the widget does not fit your page layout comfortably you may wish to make small changes to adjust its layout to suit. It's perfectly acceptable to do this provided you stick within the guidelines:
+
+* Keep the brand logo and colours
+* Within reason you can change the typestyle and font size to fit with your site's typography but the text alongside the logo should be Helvetica/Arial and kept in the same proportion to the size of the logo (Please no fancy fonts)
+* Keep the widget inside a solid border but you can switch off rounded corners if that fits better with your page layout
+* Be careful modifying the hidden fields - they control initial sort and set the 5 miles initial search range.
+
+
