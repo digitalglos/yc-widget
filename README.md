@@ -58,9 +58,9 @@ If you need to have templates changed or created supply this code to your web de
 
 Inject a \<div\> on the page with **id="replaceMe"** where you want the widet to appear - eg:
 
-    <div id="replaceMe">If you can see this you have Javascript disabled &amp; the search widget will not work.</div>
+    <div id="replaceMe">If you can see this you have Javascript disabled &amp; the search widget will not work.<br />Go to <a href="">the YourCircle web site</a></div>
 
-The message inside the \<div\> will appear as a warning if Javascript is off.
+The message inside the \<div\> will appear as a warning if Javascript is off and link to the YourCircle search page.
 
 This places a short piece of code on the page which a script can replace.
 
@@ -79,9 +79,11 @@ Inspect the code on your site carefully & decide which element is suitable. The 
 
 Use the code in '[your-circle-form-with-distance-class.js](your-circle-form-with-distance-class.js)' to place a script at the bottom of your page that will replace the \<div\> you injected above with the code from '[your-circle-clean-widget-order-dist-for-innerhtml.html](your-circle-clean-widget-order-dist-for-innerhtml.html)'.  
 **Do not paste into the rich text editor.**
+
 - - -
 Contact [communications@gloucestershire.gov.uk](mailto:communications@gloucestershire.gov.uk) with any queries.
 
+- - -
 ## Tweaking the code
 
 **Where you are comfortable editing HTML and/or Javascript, you may wish to tweak the widget.**
